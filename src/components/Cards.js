@@ -6,7 +6,7 @@ import NoMatch from "./NoMatch";
 
 const Cards = ()=> {
     const { slug } = useParams();
-    // console.log(slug)
+    
     const slugParams = slug?.split(",");
 
 
